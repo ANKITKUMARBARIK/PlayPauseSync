@@ -15,7 +15,7 @@ A lightweight Chrome extension that automatically pauses YouTube videos when you
 ### 1. Clone the Repository
 Download the source code:
 ```bash
-https://github.com/ANKITKUMARBARIK/PlayPauseSync.git
+https://github.com/ANKITKUMARBARIK/PlayPauseSync/archive/refs/heads/main.zip
 ```
 
 ### 2. Load as an Unpacked Extension
