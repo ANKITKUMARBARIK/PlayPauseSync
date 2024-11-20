@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "PlayPauseSync",
+    "version": "1.0",
+    "description": "PlayPauseSync : Automatically pauses a YouTube video when switching tabs and resumes it when returning to the tab. CREATED BY - Ankit Kumar Barik",
+    "permissions": [
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://www.youtube.com/watch*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/watch*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "icons": { 
+        "128": "logo.png"
+    }
+}
