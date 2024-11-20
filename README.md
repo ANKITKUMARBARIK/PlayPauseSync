@@ -1,0 +1,2 @@
+# PlayPauseSync
+PlayPauseSync Extension
